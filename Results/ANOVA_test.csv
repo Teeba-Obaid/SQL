@@ -1,0 +1,241 @@
+"rule_column","posttest_column","Group","mean_difference","f_statistic","p_value"
+"Rule Current: Confirming Redundancy","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Current: Confirming Redundancy","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Current: Confirming Redundancy","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Confirming Redundancy","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Confirming Redundancy","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Current: Simultaneous scanning","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Current: Simultaneous scanning","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Simultaneous scanning","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Simultaneous scanning","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Successive scanning","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Successive scanning","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Successive scanning","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Successive scanning","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Current: Successive scanning","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Successive scanning","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Successive scanning","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Successive scanning","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Successive scanning","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Current: Successive scanning","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Successive scanning","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Current: Successive scanning","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Successive scanning","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Successive scanning","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Focus gambling","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Focus gambling","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Focus gambling","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Focus gambling","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Current: Focus gambling","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Focus gambling","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Focus gambling","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Focus gambling","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Focus gambling","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Current: Focus gambling","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Focus gambling","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Current: Focus gambling","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Focus gambling","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Focus gambling","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Conservative Focusing","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Conservative Focusing","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Conservative Focusing","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Current: Conservative Focusing","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Current: Conservative Focusing","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Conservative Focusing","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Current: Conservative Focusing","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Conservative Focusing","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Conservative Focusing","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Current: Conservative Focusing","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Conservative Focusing","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Current: Conservative Focusing","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Current: Conservative Focusing","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current non-normative","Control","0.40000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current non-normative","Decision Table and Inductive Rules","-0.25000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current non-normative","Inductive Rules","-0.15000000000000000000","54.76470588235294118227",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop non-normative","Control","0.40000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop non-normative","Decision Table and Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop non-normative","Inductive Rules","-0.20000000000000000000","143.99999999999999997120",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current partial","Control","-0.18333333333333333333","7.03000000000000000020",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current partial","Decision Table and Inductive Rules","0.01666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current partial","Inductive Rules","0.16666666666666666667","7.03000000000000000020",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop partial","Control","-0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop partial","Decision Table and Inductive Rules","0.00000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop partial","Inductive Rules","0.20000000000000000000","9.50000000000000000048",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current 1 Valid link","Control","-0.10000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current 1 Valid link","Decision Table and Inductive Rules","-0.05000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current 1 Valid link","Inductive Rules","0.15000000000000000000","4.75000000000000000024",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop 1 Valid link","Control","0.00000000000000000000",NULL,NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop 1 Valid link","Decision Table and Inductive Rules","0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop 1 Valid link","Inductive Rules","-0.10000000000000000000",NULL,NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current 2 Valid links","Control","-0.11666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current 2 Valid links","Decision Table and Inductive Rules","0.28333333333333333333","72.99999999999999998740",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Current 2 Valid links","Inductive Rules","-0.16666666666666666667","72.99999999999999998740",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop 2 Valid links","Control","-0.20000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop 2 Valid links","Decision Table and Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
+"Rule Voltage Drop: Conservative Focusing","Post-test: Voltage Drop 2 Valid links","Inductive Rules","0.10000000000000000000","7.51648351648351648350",NULL
