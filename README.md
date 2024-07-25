@@ -38,3 +38,6 @@ Use the `SELECT * FROM...` SQL statements to retrieve and review the results dir
 
 ### 4. Generate Visuals
 Refer to scripts or manual steps in the `Visuals` directory to create visual representations of the results using tools like R, Python, or Excel.
+
+## License
+This project is made available under the Apache 2.0 License - see the LICENSE.md file for details.
