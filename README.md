@@ -27,7 +27,7 @@ Begin by running the `CREATE TABLE` SQL scripts to establish the necessary datab
 ### 2. Analysis Execution
 Execute the PL/pgSQL blocks to perform the analysis. The scripts include:
 
-- **ANOVA Analysis**: Determines the significance of differences in post-test results across various groups and conditions.
+- **ANOVA Analysis**: Determines the differences in post-test results across various groups and conditions. Use python to calculate p-value.
 - **Correlation and Cohen's d**: Measures the relationships and effect sizes between different variables.
 - **Descriptive Statistics**: Provides summary statistics for the datasets, aiding in a basic understanding and further analysis.
 
