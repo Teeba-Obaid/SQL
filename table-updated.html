@@ -1,0 +1,153 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Consumption CO₂ Emissions</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/tabulator-tables@4.4.1/dist/css/tabulator.min.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/tabulator-tables@4.4.1/dist/css/tabulator_simple.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body onload="init()" disabled="disabled">
+    <div id="appliance-table"></div>
+    <div class="controls">
+      <button id="save" onclick="save()" style="margin-left: 0;" disabled="disabled">Save Plan</button>
+      <span id="saveInstructions"><-- Make sure to save your values and check out the updated graph below.</span>
+    </div>
+
+    <script src="https://unpkg.com/tabulator-tables@4.4.1/dist/js/tabulator.min.js"></script>
+    <script src="https://unpkg.com/tabulator-tables@4.4.1/dist/css/tabulator_simple.min.css"></script>
+    <script>
+      const series = [{
+        name: 'Current',
+        data: [],
+        color: 'orange'
+      }, {
+        name: 'Future',
+        data: [],
+        color: 'green'
+      }];
+
+      let table = null;
+      let trialId = 0;
+
+      // Updated tableData with new variables (Food Consumption & CO2 Emissions)
+      let tableData = [
+        {id:1, food:"Beef", current:0, currentuse: "", future:0, futureuse: "", rate:27, kwhsaved:0, co2saved:0},
+        {id:2, food:"Cheese", current:0, currentuse: "", future:0, futureuse: "", rate:13.5, kwhsaved:0, co2saved:0},
+        {id:3, food:"Chicken", current:0, currentuse: "", future:0, futureuse: "", rate:6.9, kwhsaved:0, co2saved:0},
+        {id:4, food:"Rice", current:0, currentuse: "", future:0, futureuse: "", rate:2.7, kwhsaved:0, co2saved:0},
+        {id:5, food:"Vegetables", current:0, currentuse: "", future:0, futureuse: "", rate:2.0, kwhsaved:0, co2saved:0},
+        {id:6, food:"Eggs", current:0, currentuse: "", future:0, futureuse: "", rate:4.8, kwhsaved:0, co2saved:0},
+        {id:7, food:"Milk", current:0, currentuse: "", future:0, futureuse: "", rate:1.9, kwhsaved:0, co2saved:0}
+      ]
+
+      function init() {
+        table = new Tabulator("#appliance-table", {
+          data: tableData,
+          layout: "fitColumns",
+          reactiveData: true,
+          headerSort: false,
+          columns:[
+            {title:"Food Type", field:"food", cssClass: "bold"},
+            {title:"CO₂ Emission Factor (kg CO₂/kg)", field:"rate"},
+            {title:"Current Consumption (kg/day)", field:"current", editor:"input", validator:["numeric","min: 0","required"], cssClass: "editable", cellEdited: cellEdited},
+            {title:"Current CO₂ Emission (kg/yr)", field:"currentuse", bottomCalc:"sum", visible: false},
+            {title:"Future Consumption (kg/day)", field:"future", editor:"input", validator:["numeric","min: 0","required"], cssClass: "editable", cellEdited: cellEdited},
+            {title:"Future CO₂ Emission (kg/yr)", field:"futureuse", bottomCalc:"sum", visible: false},
+            {title:"CO₂ Saved/yr (kg)", field:"kwhsaved", bottomCalc:"sum", bottomCalcParams: {precision:2}},
+            {title:"Pounds CO<sub>2</sub> Saved/yr", field:"co2saved", bottomCalc:"sum", bottomCalcParams: {precision:2}}
+          ],
+          tableBuilt: function() {
+            sendApplicationInitializedMessage();
+          }
+        });
+      }
+
+      function calculateSeriesData() {
+        const totals = table.getCalcResults();
+        const kWhToCO2 = 0.4525;
+        const currentUsage = totals.bottom.currentuse * kWhToCO2;
+        const futureUsage = totals.bottom.futureuse * kWhToCO2;
+        const co2saved = totals.bottom.co2saved;
+        series[0].data = [currentUsage * 1, currentUsage * 30];
+        series[1].data = [futureUsage * 1, futureUsage * 30];
+      };
+
+      function cellEdited(cell) {
+        const rowIndex = cell.getRow().getIndex() - 1;
+        const rowData = tableData[rowIndex];
+        if (cell.getValue() === "") {
+          cell.setValue(0);
+        }
+        rowData.currentuse = rowData.current * rowData.rate * 365;
+        rowData.futureuse = rowData.future * rowData.rate * 365;
+        const kwhsaved = rowData.currentuse - rowData.futureuse;
+        const co2saved = kwhsaved * 0.4525;
+        rowData.kwhsaved = kwhsaved.toFixed(2);
+        rowData.co2saved = co2saved.toFixed(2);
+        document.getElementById('save').removeAttribute('disabled');
+        document.getElementById('saveInstructions').style.display = 'inline';
+      };
+
+      function sendMessageToParent(message) {
+        window.postMessage(message, "*");
+      }
+
+      function save() {
+        calculateSeriesData();
+        saveToWISE();
+      }
+
+      function saveToWISE() {
+        trialId++;
+        const componentState = {
+          messageType: 'studentDataChanged',
+          isAutoSave: false,
+          isSubmit: false,
+          timestamp: new Date().getTime(),
+          studentData: {
+            tableData: tableData,
+            trial: {
+              id: trialId,
+              name:  trialId,
+              series: series
+            }
+          }
+        };
+        try {
+          sendMessageToParent(componentState);
+          document.getElementById('save').setAttribute('disabled', 'disabled');
+          document.getElementById('saveInstructions').style.display = 'none';
+        } catch(err) {
+          console.log("not posted");
+        }
+      }
+
+      function sendApplicationInitializedMessage() {
+        sendMessageToParent({ messageType: 'applicationInitialized' });
+      }
+
+      function receiveMessage(message) {
+        if (message != null) {
+          const messageData = message.data;
+
+          if (messageData != null) {
+            if (messageData.messageType == 'componentState') {
+              const componentState = messageData.componentState;
+              if (componentState.componentType == 'Embedded') {
+                  loadData(componentState);
+              }
+            }
+          }
+        }
+      }
+
+      function loadData(componentState) {
+        tableData = componentState.studentData.tableData;
+        table.replaceData(tableData);
+      };
+
+      window.addEventListener('message', receiveMessage);
+    </script>
+  </body>
+</html>
